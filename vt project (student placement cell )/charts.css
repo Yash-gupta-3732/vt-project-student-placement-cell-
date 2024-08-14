@@ -1,0 +1,35 @@
+/* css for charts */
+
+.dashboard {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.chart-container {
+    background-color: #2e2e2e;
+    padding: 10px; /* Reduced padding */
+    border-radius: 10px;
+    height: 200px; /* Reduced height */
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 100%;
+}
+.b-c{
+    width: 476px;
+}
+.l-c{
+    width: 445px;
+}
+.d-c{
+    width: 504px;
+    display: flex;
+    justify-content: center;
+}
+.h-b-c{
+    width: 417px;
+}
