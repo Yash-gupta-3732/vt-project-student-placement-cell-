@@ -1,0 +1,154 @@
+.bg-img-who-we-are {
+    background: url(bg-img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50vw;
+}
+
+.who-we-are-cont .text-cont {
+    width: 28vw;
+    padding: 5px;
+    color: black;
+    background: #002342;
+}
+
+.who-we-are-cont .text-cont h1 {
+    background-image: linear-gradient(45deg, rgb(255, 0, 180), rgb(104, 0, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 5px 0px 0px 19px;
+}
+
+.who-we-are-cont {
+    height: 270px;
+}
+
+.text-cont p {
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3);
+    width: 24vw;
+    margin: 18px 20px;
+    background-color: #29436426;
+    padding: 4px;
+    color: #c3a9e8;
+}
+
+#about {
+    height: inherit;
+}
+
+.about-cont {
+    height: 270px;
+    background-color: #29436426;
+
+}
+
+.recruit-proc-container {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    background: #062847;
+}
+
+.recruit-proc-item {
+    width: 180px;
+    height: 240px;
+    color: #c3a9e8;
+    background-color: #242627;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.head-box-recruit-proc {
+    background-color: #002342;
+    position: relative;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.head-box-recruit-proc h1 {
+    background-image: linear-gradient(45deg, rgb(255, 0, 180), rgb(104, 0, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.recruit-proc-para {
+    color: #c3a9e8;
+    margin: 15px 0px;
+    margin: 12px;
+    padding: 5px;
+}
+
+.num-count {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    border-radius: 100%;
+    top: -20px;
+    left: 47px;
+    background-color: #510b8a;
+}
+
+.sect-heading {
+    background-image: linear-gradient(45deg, rgb(255, 0, 180), rgb(104, 0, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#about {
+    margin: 20px 0px;
+    height: 270px;
+    background-color: #002342;
+    gap: 47px;
+}
+
+.about-cont {
+    background-color: #29436426;
+    width: 500px;
+    text-align: center;
+    padding: 35px 20px;
+    height: auto;
+    background-color: #062847;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3);
+    color: #c3a9e8;
+}
+
+#about h1 {
+    font-size: 28px;
+}
+
+.contact-item {
+    width: 315px;
+    height: 145px;
+    padding: 20px 30px;
+    color: white;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3);
+    color: #c3a9e8;
+    background-color: #062847;
+}
+
+#contact {
+    margin: 20px 0px;
+    height: 270px;
+    background-color: #002342;
+}
+
+#contact h1 {
+    margin: 15px 0px;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.font-awsm-b {
+    color: #73a7d5;
+}
+
+.recruit-box {
+    gap: 10px;
+    margin-top: 30px;
+}

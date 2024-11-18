@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PLACEMENT CELL(HOME)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home(stu).css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left edge-radius bg-change">
+            <h1 class="heading-1 gradient">PLACEMENT PORTAL</h1>
+            <hr class="under-line-1">
+            <div class="nav-box">
+                <div class="home nav-items icons-box-bg-grad">
+                    <div class="icons-box"><img src="house-door.svg" alt=""></div>
+                    <p class="para-1 font-white"><a class="text-deco-none font-white z" id="z" href="/">Home</a></p>
+                </div>
+                <div class="company nav-items">
+                    <div class="icons-box"><img src="buildings.svg" alt=""></div>
+                    <p class="para-1 font-white"><a class="text-deco-none font-white z"
+                            href="comp-list.html">Company</a>
+                    </p>
+                </div>
+                <div class="students nav-items">
+                    <div class="icons-box"><img src="people.svg" alt=""></div>
+                    <p class="para-1 font-white"><a class="text-deco-none font-white z" href="">Students</a></p>
+                </div>
+                <div class="applied nav-items">
+                    <div class="icons-box"><img src="person-lines-fill.svg" alt=""></div>
+                    <p class="para-1 font-white"><a class="text-deco-none font-white z" href="applied.html">Applied</a>
+                    </p>
+                </div>
+                <div class="placed nav-items">
+                    <div class="icons-box"><img src="person-plus.svg" alt=""></div>
+                    <p class="para-1 font-white"><a class="text-deco-none font-white z" href="placed.html">Placed</a>
+                    </p>
+                </div>
+                <div class="profile nav-items">
+                    <div class="icons-box"><img src="person-circle.svg" alt=""></div>
+                    <p class="para-1 font-white"><a class="text-deco-none font-white z z" href="profile.php">Profile</a>
+                    </p>
+                </div>
+            </div>
+            <div class="light-mode font-white z">
+                <div id='li-ni-mode'>LIGHT MODE</div>
+                <div class="day-night-light"><img id="d-n-light" src="day-mode.png" alt=""></div>
+            </div>
+            <!-- <?php
+            if (isset($_SESSION['hide-lg-regist'])) { // Retrieve data from session variables made at the stdlg page,isset returns tru or false
+                echo"
+                <div class='logout mar-t-10'>
+                  <form action='index.php' method='get'> 
+                     <input class='logout border-none' type='submit' value='LogOut' name='logout'>
+                  </form>
+                </div>";
+            } else {
+                echo"<div class='log-regist flex'>
+                        <div class='login '><a href='stdlgpage.php' style='text-decoration: none; color: white;'>Login</a></div>
+                        <div class='register '><a href='stdreg.php' style='text-decoration: none;color: white;'>Register</a></div>
+                    </div>";
+            }
+            ?> -->
+        </div>
+        <div class="right edge-radius scroll-y">
+            <div class="nav-bar edge-radius bri-ness bg-change">
+                <ul class="font-white space-btwn list-style-none">
+                    <li>About</li>
+                    <li>contact Us</li>
+                    <li>Recruitment Process</li>
+                    <li><select name="resume" id="resume">
+                            <option value="Resume">Resume</option>
+                            <option value="Upload Resume">Upload Resume</option>
+                            <option value="Resume Template">Resume Template</option>
+                        </select>
+                    </li>
+                    <li>Notification</li>
+                    <li>Logout</li>
+                </ul>
+            </div>
+            <div class="section-cont">
+                <section class="who-we-are-cont flex">
+                    <div class="text-cont">
+                        <h1>Welcome to the Placement Cell!</h1>
+
+                        <p class="text-center"> The Placement Cell is dedicated to connecting students with
+                            top
+                            companies and career opportunities. We provide resources, training, and guidance to prepare
+                            students for successful careers, working closely with industry leaders to ensure they’re
+                            equipped for professional success.</p>
+                    </div>
+                    <div class="bg-img-who-we-are">
+
+                    </div>
+                </section>
+                <section id="about" class="text-center flex-center">
+                    <h1 class="sect-heading">About Placement cell</h1>
+                    <div class="about-cont">
+                        At Placement Cell, we are committed to empowering students with the skills and connections they
+                        need to thrive in their professional lives. Our team collaborates with industry leaders to offer
+                        comprehensive career support, from resume workshops and interview training to internships and
+                        job placements. We aim to create a seamless pathway from education to employment, ensuring every
+                        student reaches their full potential.
+                    </div>
+                </section>
+                <section id="contact">
+                    <h1 class="text-center sect-heading">Contact us</h1>
+                    <div class="addr-em-cont space-around">
+                        <div class="contact-add text-center contact-item">
+                            <div class="logo-cont flex-center"><i class="bi bi-geo-alt font-awsm-b"></i></div>
+                            <h2 class="sect-heading">Address</h2>
+                            <div class="desc-addr">Government Engineering College Jagdalpur
+                                Dharampura-2,
+                                Jagdalpur, Bastar,
+                                Chhattisgarh - 494005,
+                                India.</div>
+                        </div>
+                        <div class="contact-em text-center contact-item">
+                            <div class="logo-cont flex-center"><i class="bi bi-envelope font-awsm-b"></i></div>
+                            <h2 class="sect-heading">Email</h2>
+                            <div class="desc-em">query.placementcell@gmail.com</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="recruit-proc-container text-center">
+                    <h1 class="sect-heading">Recruitment Process</h1>
+                    <div class=" flex-wrap flex-center recruit-box">
+                        <div class="recruit-pro1 recruit-proc-item text-center">
+                            <div class="num-count">1</div>
+                            <div class="head-box-recruit-proc text-center">
+                                <h1>Explore Opportunities</h1>
+                            </div>
+                            <div class="recruit-proc-para"> Find job and internship openings posted on our website and
+                                stay updated through our alerts.</div>
+                        </div>
+                        <div class="recruit-pro2 recruit-proc-item text-center">
+                            <div class="num-count">2</div>
+                            <div class="head-box-recruit-proc text-center">
+                                <h1>Apply</h1>
+                            </div>
+                            <div class="recruit-proc-para">Submit your application, including your resume, for roles
+                                that match your skills and interests.</div>
+                        </div>
+                        <div class="recruit-pro3 recruit-proc-item text-center">
+                            <div class="num-count">3</div>
+                            <div class="head-box-recruit-proc text-center">
+                                <h1>Shortlisting</h1>
+                            </div>
+                            <div class="recruit-proc-para">If you meet the criteria, you’ll be shortlisted and notified
+                                about the next steps.</div>
+                        </div>
+                        <div class="recruit-pro4 recruit-proc-item text-center">
+                            <div class="num-count">4</div>
+                            <div class="head-box-recruit-proc text-center">
+                                <h1>Assessments</h1>
+                            </div>
+                            <div class="recruit-proc-para">Complete any required tests or assignments to demonstrate
+                                your abilities.</div>
+                        </div>
+                        <div class="recruit-pro5 recruit-proc-item text-center">
+                            <div class="num-count">5</div>
+                            <div class="head-box-recruit-proc text-center">
+                                <h1>Interviews</h1>
+                            </div>
+                            <div class="recruit-proc-para">Attend technical and HR interviews to showcase your knowledge
+                                and fit for the company.</div>
+                        </div>
+                        <div class="recruit-pro6 recruit-proc-item text-center">
+                            <div class="num-count">6</div>
+                            <div class="head-box-recruit-proc text-center">
+                                <h1>Receive an Offer</h1>
+                            </div>
+                            <div class="recruit-proc-para">If selected, you’ll receive a detailed job offer. Review and
+                                accept it to start your new role.</div>
+                        </div>
+                        <div class="recruit-pro7 recruit-proc-item text-center">
+                            <div class="num-count">7</div>
+                            <div class="head-box-recruit-proc text-center">
+                                <h1>Onboarding</h1>
+                            </div>
+                            <div class="recruit-proc-para"> We’ll help you get started with orientation and resources to
+                                ensure a smooth transition.</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="day-night.js"></script>
+</body>
+
+</html>
