@@ -3,61 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY PLACEMENT CELL(APPLIED)</title>
+    <title>Student</title>
+    <link rel="stylesheet" href="list2.css">
+    <link rel="stylesheet" href="list6.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="applied.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+    </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="left edge-radius bg-change">
-            <h1 class="heading-1 gradient">PLACEMENT PORTAL</h1>
-            <hr class="under-line-1">
-            <div class="nav-box">
-                <div class="home nav-items">
-                    <div class="icons-box"><img src="house-door.svg" alt=""></div>
-                    <p class="para-1 font-white"><a class="text-deco-none font-white z" id="z" href="/">Home</a></p>
-                </div>
-                <div class="company nav-items">
-                    <div class="icons-box"><img src="buildings.svg" alt=""></div>
-                    <p class="para-1 font-white"><a class="text-deco-none font-white z" href="comp-list.html">Company</a>
-                    </p>
-                </div>
-                <div class="students nav-items">
-                    <div class="icons-box"><img src="people.svg" alt=""></div>
-                    <p class="para-1 font-white"><a class="text-deco-none font-white z" href="">Students</a></p>
-                </div>
-                <div class="applied nav-items icons-box-bg-grad">
-                    <div class="icons-box"><img src="person-lines-fill.svg" alt=""></div>
-                    <p class="para-1 font-white"><a class="text-deco-none font-white z" href="applied.html">Applied</a>
-                    </p>
-                </div>
-                <div class="placed nav-items">
-                    <div class="icons-box"><img src="person-plus.svg" alt=""></div>
-                    <p class="para-1 font-white"><a class="text-deco-none font-white z" href="placed.html">Placed</a></p>
-                </div>
-                <div class="profile nav-items">
-                    <div class="icons-box"><img src="person-circle.svg" alt=""></div>
-                    <p class="para-1 font-white"><a class="text-deco-none font-white z z" href="profile.php">Profile</a></p>
-                </div>
-            </div>
-            <div class="light-mode font-white z"><p>LIGHT MODE</p><div class="day-night-light" ><img id="d-n-light" src="day-mode(1).png" alt=""></div></div>
-        </div>
-        <div class="right edge-radius">
-            <div class="nav-bar edge-radius bg-change">
-                <h1 class="heading-2">APPLIED LIST</h1>
+       <?php include 'left.php'?>
+        <div class="right">
+           <div class="nav-bar edge-radius bg-change">
+                <h1 class="heading-2">STUDENT'S LIST</h1>
                 <div class="navigation">
                     <a href="index.html" class="text-gray text-deco-none">Home</a>
                     <span class="text-gray">></span>
                     <a href="comp-list.html" class="text-gray text-deco-none">Company</a>
                     <span class="text-gray">></span>
-                    <a href="applied.html" class="text-gray text-deco-none">Applied</a>
+                    <a href="applied.html" class="text-gray text-deco-none">Student's</a>
                 </div>
             </div>
             <div class="lower edge-radius bg-change">
-                <h2 class="heading2">NO.OF STUDENT'S</h2>
+                <div class="add-new">
+                    <h2 class="heading2">NO.OF STUDENT'S</h2>
+                    <div>
+                        <input type="search" placeholder="&#xf002; search " class="sch">
+                    </div>
+                    <div class="btn2"><button>ADD NEW STUDENT <img class="add-icon" src="add.png" alt=""></button></div>
+                </div>
                 <div class="heading-bar font-white">
                     <div class="head-name">NAME</div>
                     <div class="head-branch">BRANCH</div>
@@ -108,11 +86,8 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
         </div>
-    </div>
-        <script src="day-night.js"></script>
 </body>
 
 </html>

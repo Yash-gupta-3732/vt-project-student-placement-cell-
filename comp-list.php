@@ -21,12 +21,11 @@ $comp_arr = $_GET['comp-arrival'];
 $comp_ctc = $_GET['comp-ctc'];
 $comp_year = $_GET['comp-year'];
 $comp_link = $_GET['comp-link'];
-
-
   $con = mysqli_connect('localhost','root','yash1234','addcomp');
   $q = "insert into addme(name,type,doa,ctc,year,moreinfo) value('$name','$comp_type','$comp_arr','$comp_ctc ','$comp_year','$comp_link')";
-
   $rs = mysqli_query($con,$q);
+  header("location:comp-list.php"); // Redirects the user to "profile.php".
+  exit; // Stops the script execution after the redirect to ensure no further code is executed.
   if (!$rs) {
   echo "error";
   }
